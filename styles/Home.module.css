@@ -1,4 +1,4 @@
-/* .container {
+.container {
   padding: 0 2rem;
 }
 
@@ -107,21 +107,30 @@
   height: 1em;
   margin-left: 0.5rem;
 }
+.center {text-align: center;
+
+
+}
+.size{ width: 400px ;
+  height: 40px;
+
+}
+.box1 {
+  width: 550px;
+  padding: 10px;
+  border: 1px solid rgba(0,0,0,0.5);
+  margin: auto;
+}
+.ab {
+  margin-bottom: 10px;
+}
+.neighbour {
+border: 1px;
+}
 
 @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
   }
-} */
-.container{
-  padding: 0px;
-}
-.country{
-  padding-left: 10px;
-  margin-left: 20px;
-  float:none;
-  text-decoration:none;
-  font-size: x-large;
-  color: aqua;
 }
